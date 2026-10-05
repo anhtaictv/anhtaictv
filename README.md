@@ -68,10 +68,10 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=anhtaictv&show_icons=true&count_private=true&hide_border=true&theme=transparent&title_color=f0592a&icon_color=f0592a" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=anhtaictv&show_icons=true&count_private=true&hide=commits&hide_border=true&theme=transparent&title_color=f0592a&icon_color=f0592a" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anhtaictv&layout=compact&hide_border=true&theme=transparent&title_color=f0592a&locale=vi" />
 
-<img src="https://streak-stats.demolab.com?user=anhtaictv&hide_border=true&theme=transparent&ring=f0592a&fire=f0592a&currStreakLabel=f0592a&locale=vi" />
+<img src="https://streak-stats.demolab.com?user=anhtaictv&v=2&hide_border=true&theme=transparent&ring=f0592a&fire=f0592a&currStreakLabel=f0592a&locale=vi" />
 
 </div>
 
