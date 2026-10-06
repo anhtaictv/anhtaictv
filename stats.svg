@@ -4,13 +4,13 @@
 <rect x="0.5" y="0.5" width="819" height="149" rx="12" fill="none" stroke="#f0592a" stroke-opacity=".35"/>
 <g transform="translate(102.5,0)" text-anchor="middle">
 
-<text class="v" y="62">792</text><text class="l" y="92">Tổng đóng góp</text><text class="s" y="114">từ 23/2/2024</text></g>
+<text class="v" y="62">795</text><text class="l" y="92">Tổng đóng góp</text><text class="s" y="114">từ 23/2/2024</text></g>
 <g transform="translate(307.5,0)" text-anchor="middle">
 <line x1="-102.5" y1="30" x2="-102.5" y2="120" stroke="#d0d7de"/>
-<text class="v" y="62">777</text><text class="l" y="92">Đóng góp năm 2026</text><text class="s" y="114">10 repo · 4 PR</text></g>
+<text class="v" y="62">780</text><text class="l" y="92">Đóng góp năm 2026</text><text class="s" y="114">10 repo · 4 PR</text></g>
 <g transform="translate(512.5,0)" text-anchor="middle">
 <line x1="-102.5" y1="30" x2="-102.5" y2="120" stroke="#d0d7de"/>
-<text class="v" y="62">3</text><text class="l" y="92">Chuỗi hiện tại</text><text class="s" y="114">ngày liên tiếp 🔥</text></g>
+<text class="v" y="62">4</text><text class="l" y="92">Chuỗi hiện tại</text><text class="s" y="114">ngày liên tiếp 🔥</text></g>
 <g transform="translate(717.5,0)" text-anchor="middle">
 <line x1="-102.5" y1="30" x2="-102.5" y2="120" stroke="#d0d7de"/>
 <text class="v" y="62">11</text><text class="l" y="92">Chuỗi dài nhất</text><text class="s" y="114">20/7/2026 – 30/7/2026</text></g>
