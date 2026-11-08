@@ -7,11 +7,11 @@
 <text class="v" y="62">1.431</text><text class="l" y="92">Tổng đóng góp</text><text class="s" y="114">từ 23/2/2024</text></g>
 <g transform="translate(307.5,0)" text-anchor="middle">
 <line x1="-102.5" y1="30" x2="-102.5" y2="120" stroke="#d0d7de"/>
-<text class="v" y="62">1.418</text><text class="l" y="92">Đóng góp năm 2026</text><text class="s" y="114">11 repo · 4 PR</text></g>
+<text class="v" y="62">1.418</text><text class="l" y="92">Đóng góp năm 2026</text><text class="s" y="114">gồm cả repo riêng tư</text></g>
 <g transform="translate(512.5,0)" text-anchor="middle">
 <line x1="-102.5" y1="30" x2="-102.5" y2="120" stroke="#d0d7de"/>
-<text class="v" y="62">0</text><text class="l" y="92">Chuỗi hiện tại</text><text class="s" y="114">bắt đầu lại hôm nay</text></g>
+<text class="v" y="62">23</text><text class="l" y="92">Repository</text><text class="s" y="114">13 pull request</text></g>
 <g transform="translate(717.5,0)" text-anchor="middle">
 <line x1="-102.5" y1="30" x2="-102.5" y2="120" stroke="#d0d7de"/>
-<text class="v" y="62">11</text><text class="l" y="92">Chuỗi dài nhất</text><text class="s" y="114">20/7/2026 – 30/7/2026</text></g>
+<text class="v" y="62">109</text><text class="l" y="92">Ngày hoạt động</text><text class="s" y="114">có ít nhất 1 đóng góp</text></g>
 </svg>

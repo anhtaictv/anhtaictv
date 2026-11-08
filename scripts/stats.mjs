@@ -34,23 +34,15 @@ const past = days.filter(d => d.date <= today).sort((a, b) => a.date.localeCompa
 
 const total = past.reduce((s, d) => s + d.contributionCount, 0);
 const year = past.filter(d => d.date.startsWith(today.slice(0, 4))).reduce((s, d) => s + d.contributionCount, 0);
-let longest = 0, run = 0, longFrom = '', longTo = '', runFrom = '';
-for (const d of past) {
-  if (d.contributionCount > 0) { if (!run) runFrom = d.date; run++; if (run > longest) { longest = run; longFrom = runFrom; longTo = d.date; } }
-  else run = 0;
-}
-// chuỗi hiện tại: hôm nay chưa có đóng góp thì vẫn tính chuỗi tới hôm qua
-let cur = 0, i = past.length - 1;
-if (i >= 0 && past[i].contributionCount === 0) i--;
-for (; i >= 0 && past[i].contributionCount > 0; i--) cur++;
+const activeDays = past.filter(d => d.contributionCount > 0).length;
 
 const vi = s => { const [y, m, d] = s.split('-'); return `${+d}/${+m}/${y}`; };
 const n = x => x.toLocaleString('vi-VN');
 const cells = [
   [n(total), 'Tổng đóng góp', `từ ${vi(user.createdAt.slice(0, 10))}`],
-  [n(year), `Đóng góp năm ${today.slice(0, 4)}`, `${n(user.repositories.totalCount)} repo · ${n(user.pullRequests.totalCount)} PR`],
-  [n(cur), 'Chuỗi hiện tại', cur ? 'ngày liên tiếp 🔥' : 'bắt đầu lại hôm nay'],
-  [n(longest), 'Chuỗi dài nhất', longest ? `${vi(longFrom)} – ${vi(longTo)}` : ''],
+  [n(year), `Đóng góp năm ${today.slice(0, 4)}`, 'gồm cả repo riêng tư'],
+  [n(user.repositories.totalCount), 'Repository', `${n(user.pullRequests.totalCount)} pull request`],
+  [n(activeDays), 'Ngày hoạt động', 'có ít nhất 1 đóng góp'],
 ];
 const W = 820, H = 150, cw = W / cells.length;
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="'Segoe UI',Ubuntu,Arial,sans-serif">
@@ -63,4 +55,4 @@ ${k ? `<line x1="${-cw / 2}" y1="30" x2="${-cw / 2}" y2="${H - 30}" stroke="#d0d
 </svg>
 `;
 writeFileSync('stats.svg', svg);
-console.log({ total, year, cur, longest });
+console.log({ total, year, activeDays });
