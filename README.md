@@ -1,12 +1,6 @@
 <div align="center">
 
-# Tạ Anh Tài
-
-**Full-stack Developer · Mèo Software**
-
-*Xây dựng phần mềm gọn nhẹ, dễ dùng — giải quyết đúng bài toán thực tế.*
-
-Web app · AI cho tiếng Việt · Thị giác máy tính &nbsp;|&nbsp; Đắk Lắk, Việt Nam
+<img src="header.svg" width="100%" alt="Tạ Anh Tài — Full-stack Developer · Mèo Software. Xây dựng phần mềm gọn nhẹ, dễ dùng — giải quyết đúng bài toán thực tế." />
 
 <a href="https://github.com/anhtaictv?tab=repositories"><img src="https://img.shields.io/badge/GitHub-anhtaictv-181717?style=flat-square&logo=github" alt="GitHub" /></a>
 <img src="https://img.shields.io/badge/S%E1%BA%B5n%20s%C3%A0ng-nh%E1%BA%ADn%20d%E1%BB%B1%20%C3%A1n-2ea44f?style=flat-square" alt="Sẵn sàng nhận dự án" />
